@@ -85,3 +85,31 @@ button:hover {
   background-color: #f8d7da;
   color: #721c24;
 }
+
+/* עיצוב תפריט הניווט הצדדי/עליון */
+.sidebar nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-color: #f3f4f6;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+/* עיצוב הקישורים הרגילים בתפריט */
+.sidebar nav a {
+  text-decoration: none;
+  color: #4b5563;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+/* עיצוב הקישור של העמוד הפעיל (NavLink) */
+.sidebar nav a.active-link {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-weight: bold;
+}

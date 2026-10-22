@@ -23,8 +23,7 @@ function Dashboard() {
       {students.length === 0 ? (
         <p>אין תלמידות במערכת</p>
       ) : (
-        <StudentList students={students.slice(0, 3)} />
-      )}
+<StudentList students={students} />      )}
     </div>
   );
 }
