@@ -9,8 +9,8 @@ function Statistics({ students }) {
     <div className="statistics">
       <h2>נתונים סטטיסטיים</h2>
       <div className="stats-grid">
-        <div>סה"כ תלמידים: {totalStudents}</div>
-        <div>תלמידים פעילים: {activeStudents}</div>
+        <div>סה"כ תלמידות: {totalStudents}</div>
+        <div>תלמידות פעילות: {activeStudents}</div>
         <div>ממוצע ציונים: {averageGrade}</div>
       </div>
     </div>
